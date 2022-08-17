@@ -14,6 +14,7 @@ services:
       - db
 
   queue:
+    container_name: main-queue
     build:
       context: .
       dockerfile: Dockerfile

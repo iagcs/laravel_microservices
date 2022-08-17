@@ -14,6 +14,7 @@ services:
       - db
 
   queue:
+    container_name: admin-queue
     build:
       context: .
       dockerfile: Dockerfile
